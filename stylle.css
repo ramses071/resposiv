@@ -1,0 +1,176 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+
+}
+h1{
+    font-size: 36px;
+    display: inline;
+}
+.top{
+    margin-top: 30px;
+}
+.chevron{
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 40px;
+}
+.line{
+    width: auto;
+    height: 3px;
+    background-color: grey;
+}
+.min_line{
+    height: 3px;
+    width: 15%;
+    background-color: red;
+}
+.wrapper{
+    margin-top:0px;
+    margin: 0;
+    width: 1200px;
+    margin: 0px;
+    padding: 10px;
+}
+.block{
+    display: flex;
+}
+.pages{
+    width: 250px;
+    height: 420px;
+    box-sizing: border-box;
+    border: 3px solid rgb(172, 169, 169);
+    margin-top: 30px;
+    margin: 10px;
+
+}
+.pic1{
+    height: 244px;
+    position: relative;
+    top: 0px;
+    border-bottom: 3px solid  rgb(172, 169, 169);
+}
+.font_position{
+    font-size: 15px;
+    text-align: center;
+}
+.line_min{
+    width: 40px;
+    height: 2px;
+    background: grey;
+    opacity: .5 ;
+    display: inline-block;
+    margin: 5px;
+
+}
+.starf{
+    text-align: center;
+}
+.star{
+    color: gold;
+    display: inline-block
+}
+.besh{
+    display: inline;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.line_end{
+    width: 40px;
+    height: 2px;
+    background: grey;
+    opacity: .5 ;
+    display: inline-block;
+    margin: 5px;
+
+}
+.euro{
+    display: inline;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.cost{
+    display: inline;
+    font-size: 20px;
+}
+.narx{
+    text-align: center;
+}
+.shop{
+    position: relative;
+    height: 15px;
+    top: 0px;
+}
+.button{
+    height: 25px;
+    width: 120px;
+    border: 2px solid  rgb(172, 169, 169);
+    font-size: 16px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+}
+.button p{
+    
+    display: inline;
+    font-weight: 50px;
+
+}
+
+
+@media(min-width:0px) and (max-width:446.9px){
+    .wrapper{
+        width: 400px;
+
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+@media(min-width:447px) and (max-width:768.9px){
+    .wrapper{
+        width: 450px;
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+@media(min-width:769px) and (max-width:989.9px){
+    .wrapper{
+        width: 770px;
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+@media(min-width:990px) and (max-width:1199.9px){
+    .wrapper{
+        width: 990px;
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+@media(min-width:1200px){
+    .wrapper{
+        width: 1400px;
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+    }
+    .pages{
+        margin: 10px;
+    }
+
+}
